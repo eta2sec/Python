@@ -1,4 +1,2 @@
-greeting = 'Hello'
-name = 'Michael'
-message = f'{greeting}, {name.upper()}. Welcome!'
-print(message)
+courses = ['History','Math','Physics','CompSci']
+print(courses[:2])
