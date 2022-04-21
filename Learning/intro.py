@@ -1,2 +1,4 @@
-courses = ['History','Math','Physics','CompSci']
-print(courses[:2])
+student = {'name': 'John', 'age': 25, 'courses': ['Math', 'CompSci']}
+
+for key, value in student.items():
+    print(key, ": ", value, sep='')
