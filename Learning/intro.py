@@ -1,4 +1,10 @@
-student = {'name': 'John', 'age': 25, 'courses': ['Math', 'CompSci']}
+def student_info(*args, **kwargs):
+    print(args)
+    print(kwargs)
 
-for key, value in student.items():
-    print(key, ": ", value, sep='')
+
+courses = ['Math', 'Art']
+info = {'name': 'John', 'age': 22}
+
+
+student_info(*courses, **info)
